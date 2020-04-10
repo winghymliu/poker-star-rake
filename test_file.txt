@@ -1,0 +1,44 @@
+
+*** SHOW DOWN ***
+pokeher878787: shows [Qd Jc] (a straight, Nine to King)
+no1beyondfan888: shows [5s Kc] (two pair, Kings and Fives)
+pokeher878787 collected 1922 from side pot
+winghymliu: shows [Qh Jd] (a straight, Nine to King)
+pokeher878787 collected 15298 from main pot
+winghymliu collected 15298 from main pot
+*** SUMMARY ***
+Total pot 34411 Main pot 30596. Side pot 1922. | Rake 1893
+
+*** HOLE CARDS ***
+Dealt to winghymliu [6d 3h]
+winghymliu: folds
+Uncalled bet (50) returned to 420justblazeit
+420justblazeit collected 100 from pot
+420justblazeit: doesn't show hand
+*** SUMMARY ***
+Total pot 100 | Rake 0
+
+
+
+420justblazeit: bets 3878 and is all-in
+winghymliu: folds
+no1beyondfan888: folds
+scra88le56: folds
+Uncalled bet (3878) returned to 420justblazeit
+420justblazeit collected 1228 from pot
+420justblazeit: doesn't show hand
+*** SUMMARY ***
+Total pot 1300 | Rake 72
+Board [3d Ac Kc]
+Seat 1: hellokwanny (big blind) folded before Flop
+
+
+*** SHOW DOWN ***
+winghymliu: shows [Qd 8c] (a pair of Queens)
+hellokwanny: shows [Qs Kc] (a pair of Queens - King kicker)
+hellokwanny collected 18900 from pot
+*** SUMMARY ***
+Total pot 20000 | Rake 1100
+Board [3s 4c Qh 9c 5c]
+Seat 1: hellokwanny (big blind) showed [Qs Kc] and won (18900) with a pair of Queens
+Seat 8: winghymliu (button) (small blind) showed [Qd 8c] and lost with a pair of Queens

@@ -1,4 +1,5 @@
 import sys
+import re
 from collections import defaultdict
 from decimal import Decimal as D
 
@@ -8,14 +9,25 @@ print('Opening file ' + file_name)
 
 winnings = defaultdict(int)
 total_rake = 0
+hands = set()
 
-with open(file_name, 'r') as f:
+with open(file_name, 'r', encoding='utf-8-sig') as f:
 
     current_takers = set()
     current_rake = 0
 
+    in_summary   = True
+    in_hand = True
+
     for line in f:
-        if "collected" in line:
+        if line[0:10] == "PokerStars":
+            in_hand = True
+            in_summary = False
+            hand_number_search = re.search('PokerStars.*(#[0-9]*?):\s.*', line)
+            if hand_number_search:
+                found = hand_number_search.group(1);
+                hands.add(found)
+        elif "collected" in line and in_summary:
             print(line)
             before_collected = line.split(' collected ')[0]
             name = before_collected.split(' ')[-1]
@@ -43,5 +55,6 @@ for name, amount in winnings.items():
     print('Name: ' + name + " Rake winnings: " + str(amount))
 
 print("Total Rake: " + str(total_rake))
+print("Number of hands:" + str(len(hands)))
 print("Finished!")
 
